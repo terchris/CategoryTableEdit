@@ -1,0 +1,763 @@
+{
+  "orgtype": {
+    "entities": [
+      {
+        "id": "5f325922203f6aa190320327",
+        "idName": "bronnoysundregistrene",
+        "entity_categories": [
+          {
+            "id": "5f325947203f6aa190320334",
+            "text": "Category:orgtype,Org:bronnoysundregistrene,Source:insightly",
+            "category": {
+              "id": "5f325890203f6aa19031fe0e",
+              "idName": "orgtype"
+            },
+            "entity_category_answers": [
+              {
+                "id": "5f325947203f6aa190320335",
+                "text": "CatItem:government,Cat:orgtype,Org:bronnoysundregistrene,Source:insightly",
+                "categoryitem": {
+                  "id": "5f325890203f6aa19031fe2f",
+                  "idName": "government"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": "5f325890203f6aa19031fe0e",
+        "idName": "orgtype",
+        "displayName": "Organisasjonstype",
+        "summary": "Types of organizations",
+        "categoryType": "single",
+        "image": null,
+        "internalImage": {
+          "icon": {
+            "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-logo-small.jpg"
+          },
+          "profile": {
+            "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-logo-medium.png"
+          }
+        },
+        "color": {
+          "text": "#ffffff",
+          "background": "#4B5731"
+        },
+        "categoryitems": [
+          {
+            "id": "5f325890203f6aa19031fe19",
+            "idName": "private",
+            "displayName": "Private bedrifter",
+            "summary": "Private bedrifter",
+            "description": "Private bedrifter",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#4B5731"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-priv-small.jpg"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-priv-medium.png"
+              }
+            }
+          },
+          {
+            "id": "5f325890203f6aa19031fe24",
+            "idName": "municipality",
+            "displayName": "Kommune",
+            "summary": "Kommuner og kommunale foretak",
+            "description": "Kommuner og kommunale foretak",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#4B5731"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-municip-small.jpg"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-municip-medium.png"
+              }
+            }
+          },
+          {
+            "id": "5f325890203f6aa19031fe2f",
+            "idName": "government",
+            "displayName": "Statlig",
+            "summary": "Statlige organisasjoner",
+            "description": "Statlige organisasjoner",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#4B5731"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-gov-small.jpg"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-gov-medium.png"
+              }
+            }
+          },
+          {
+            "id": "5f325890203f6aa19031fe3a",
+            "idName": "association",
+            "displayName": "Organisasjoner",
+            "summary": "Organisasjoner",
+            "description": "Organisasjoner",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#4B5731"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-assoc-small.jpg"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-assoc-medium.png"
+              }
+            }
+          },
+          {
+            "id": "5f325890203f6aa19031fe45",
+            "idName": "civil-society-ngo",
+            "displayName": "Frivillige organisasjoner",
+            "summary": "Frivillige organisasjoner",
+            "description": "Frivillige organisasjoner",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#4B5731"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-civil-small.jpg"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-civil-medium.png"
+              }
+            }
+          },
+          {
+            "id": "5f325890203f6aa19031fe50",
+            "idName": "academia",
+            "displayName": "Akademia",
+            "summary": "Akademia",
+            "description": "Akademia",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#4B5731"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-acad-small.jpg"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-acad-medium.png"
+              }
+            }
+          },
+          {
+            "id": "5f325891203f6aa19031fe5b",
+            "idName": "research",
+            "displayName": "Forskning",
+            "summary": "Forskning",
+            "description": "Forskning",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#4B5731"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-research-small.jpg"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/orgtype/orgtype-research-medium.png"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "sdg": {
+    "entities": [
+      {
+        "id": "5f325922203f6aa190320327",
+        "idName": "bronnoysundregistrene",
+        "entity_categories": [
+          {
+            "id": "5f325947203f6aa190320336",
+            "text": "Category:sdg,Org:bronnoysundregistrene,Source:insightly",
+            "category": {
+              "id": "5f325899203f6aa1903201e1",
+              "idName": "sdg"
+            },
+            "entity_category_answers": [
+              {
+                "id": "5f325947203f6aa190320337",
+                "text": "CatItem:9,Cat:sdg,Org:bronnoysundregistrene,Source:insightly",
+                "categoryitem": {
+                  "id": "5f32589a203f6aa190320244",
+                  "idName": "9"
+                }
+              },
+              {
+                "id": "5f325948203f6aa190320338",
+                "text": "CatItem:11,Cat:sdg,Org:bronnoysundregistrene,Source:insightly",
+                "categoryitem": {
+                  "id": "5f32589a203f6aa19032025a",
+                  "idName": "11"
+                }
+              },
+              {
+                "id": "5f74b6d7abcf1dcb0f8a7a47",
+                "text": "manual by tec",
+                "categoryitem": {
+                  "id": "5f325899203f6aa1903201ec",
+                  "idName": "1"
+                }
+              },
+              {
+                "id": "5f74bee7abcf1dcb0f8a7a48",
+                "text": "added by USER ",
+                "categoryitem": {
+                  "id": "5f325899203f6aa1903201f7",
+                  "idName": "2"
+                }
+              },
+              {
+                "id": "5f74c359abcf1dcb0f8a7a49",
+                "text": "added by USER ",
+                "categoryitem": {
+                  "id": "5f325899203f6aa190320202",
+                  "idName": "3"
+                }
+              },
+              {
+                "id": "5f74c3ccabcf1dcb0f8a7a4a",
+                "text": "added by USER ",
+                "categoryitem": {
+                  "id": "5f32589a203f6aa19032029c",
+                  "idName": "17"
+                }
+              },
+              {
+                "id": "5f74c4f1abcf1dcb0f8a7a4b",
+                "text": "added by USER ",
+                "categoryitem": {
+                  "id": "5f325899203f6aa19032020d",
+                  "idName": "4"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": "5f325899203f6aa1903201e1",
+        "idName": "sdg",
+        "displayName": "Sustainable Development Goals",
+        "summary": "FNs bærekraftsmål er verdens felles arbeidsplan for å utrydde fattigdom, bekjempe ulikhet og stoppe klimaendringene innen 2030",
+        "categoryType": "multiple",
+        "image": null,
+        "internalImage": {
+          "icon": {
+            "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-small.jpg"
+          },
+          "profile": {
+            "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-medium.png"
+          }
+        },
+        "color": {
+          "text": "#ffffff",
+          "background": "#EB1C2E"
+        },
+        "categoryitems": [
+          {
+            "id": "5f325899203f6aa1903201ec",
+            "idName": "1",
+            "displayName": "Utrydde fattigdom",
+            "summary": "Utrydde alle former for fattigdom i hele verden",
+            "description": "I 1990 levde 36 prosent av verdens befolkning i ekstrem fattigdom. Siden den gang har andelen ekstremt fattige blitt mer enn halvert. 767 millioner mennesker lever i dag under fattigdomsgrensa på 1,90 dollar dagen. Ekstrem fattigdom skal utryddes ",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#EB1C2E"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-1.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-1.png"
+              }
+            }
+          },
+          {
+            "id": "5f325899203f6aa1903201f7",
+            "idName": "2",
+            "displayName": "Utrydde sult",
+            "summary": "Utrydde sult, oppnå matsikkerhet og bedre ernæring, og fremme bærekraftig landbruk",
+            "description": "Selv om antallet mennesker som lever i kronisk sult fortsatt er svært høyt, har andelen sunket fra 23,3 prosent i 1990-92 til 12,9 prosent i 2014-2016. 821 millioner mennesker er rammet av sult, mens nesten 2 milliarder opplever manglende matsikkerhet i perioder. Det er på tide å tenke nytt om måten vi dyrker, fordeler og bruker maten vår. Hvis vi gjør det på riktig måte, kan jordbruk, skog og fisk sørge for næringsrik mat til alle, og samtidig være en viktig inntektskilde for mange.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#D3A02B"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-2.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-2.png"
+              }
+            }
+          },
+          {
+            "id": "5f325899203f6aa190320202",
+            "idName": "3",
+            "displayName": "God helse",
+            "summary": "Sikre god helse og fremme livskvalitet for alle, uansett alder",
+            "description": "At alle kan leve friske og sunne liv er en forutsetning for å oppnå bærekraftig utvikling. Det er gjort store framskritt i arbeidet med å øke forventet levealder, og minske mødre- og barnedødelighet i verden. For at dette bærekraftsmålet skal nås, kreves det likevel en massiv innsats de neste 15 årene. En rekke alvorlige sykdommer må utryddes, og andre store helseutfordringer må håndteres.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#279B48"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-3.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-3.png"
+              }
+            }
+          },
+          {
+            "id": "5f325899203f6aa19032020d",
+            "idName": "4",
+            "displayName": "God utdanning",
+            "summary": "Sikre inkluderende, rettferdig og god utdanning og fremme muligheter for livslang læring for alle",
+            "description": "En god utdanning er grunnlaget for å forbedre menneskers liv. Jenter og gutter skal ha lik tilgang til utdanning med god kvalitet, og den skal være gratis. ",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#C21F32"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-4.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-4.png"
+              }
+            }
+          },
+          {
+            "id": "5f325899203f6aa190320218",
+            "idName": "5",
+            "displayName": "Likestilling mellom kjønnene",
+            "summary": "Oppnå likestilling og styrke jenter og kvinners stilling",
+            "description": "Likestilling er en menneskerett. Det handler om å gi begge kjønn like rettigheter og muligheter til å bestemme over eget liv. Kvinners tilgang til utdanning, helsetjenester, arbeid og juridiske rettigheter er nødvendig for å skape utvikling i et land.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#EF4129"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-5.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-5.png"
+              }
+            }
+          },
+          {
+            "id": "5f325899203f6aa190320223",
+            "idName": "6",
+            "displayName": "Rent vann og gode sanitærforhold",
+            "summary": "Sikre bærekraftig vannforvaltning og tilgang til vann og gode sanitærforhold for alle",
+            "description": "Alle må ha tilgang til rent vann hvis vi skal oppnå bærekraftig utvikling. Det finnes nok ferskvann på planeten, men dårlig økonomi og manglende infrastruktur står ofte i veien.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#01AED9"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-6.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-6.png"
+              }
+            }
+          },
+          {
+            "id": "5f325899203f6aa19032022e",
+            "idName": "7",
+            "displayName": "Ren energi for alle",
+            "summary": "Sikre tilgang til pålitelig, bærekraftig og moderne energi til en overkommelig pris for alle",
+            "description": "Tilgang til energi står i sentrum av så nær som alle utfordringer og muligheter vi møter i dag. Det kan dreie seg om jobber, sikkerhet, klimaendringer, matproduksjon eller muligheter for økt inntekt.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#FCB712"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-7.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-7.png"
+              }
+            }
+          },
+          {
+            "id": "5f325899203f6aa190320239",
+            "idName": "8",
+            "displayName": "Anstendig arbeid og økonomisk vekst",
+            "summary": "Fremme varig, inkluderende og bærekraftig økonomisk vekst, full sysselsetting og anstendig arbeid for alle",
+            "description": "Omtrent halvparten av verdens befolkning tjener så dårlig at ikke de kan leve av lønnen sin. Å skape økonomisk vekst og nye arbeidsplasser gjennom anstendig arbeid er en forutsetning for bærekraftig utvikling. Å skape arbeidsplasser av god kvalitet er en av de største utfordringene for alle land fram mot 2030.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#8F1838"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-8.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-8.png"
+              }
+            }
+          },
+          {
+            "id": "5f32589a203f6aa190320244",
+            "idName": "9",
+            "displayName": "Innovasjon og infrastruktur",
+            "summary": "Bygge solid infrastruktur, fremme inkluderende og bærekraftig industrialisering og bidra til innovasjon",
+            "description": "Investeringer i transport, vanningssystemer, energi og informasjonsteknologi er helt avgjørende for å skape en bærekraftig utvikling. ",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#F36D24"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-9.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-9.png"
+              }
+            }
+          },
+          {
+            "id": "5f32589a203f6aa19032024f",
+            "idName": "10",
+            "displayName": "Mindre ulikhet",
+            "summary": "Redusere ulikhet i og mellom land",
+            "description": "Økonomisk vekst har bidratt til at flere land har blitt rikere. Dette fører ikke automatisk til mindre fattigdom. Vi må redusere ulikheter mellom land, og innad i land, for å kunne skape en bærekraftig utvikling.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#E01483"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-10.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-10.png"
+              }
+            }
+          },
+          {
+            "id": "5f32589a203f6aa19032025a",
+            "idName": "11",
+            "displayName": "Bærekraftige byer og samfunn",
+            "summary": "Gjøre byer og bosettinger inkluderende, trygge, motstandsdyktige og bærekraftige",
+            "description": "Verden urbaniseres i en fart vi aldri har sett maken til. Mer enn halvparten av verdens befolkning bor i dag i byer, og andelen kommer til å fortsette og øke. Byene fungerer som smeltedigler fulle av ideer, handel, kultur, vitenskap og sosial samhandling. Samtidig står byene for 75 prosent av alle klimagassutslipp og store slumområder hindrer gode levekår.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#FA9D26"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-11.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-11.png"
+              }
+            }
+          },
+          {
+            "id": "5f32589a203f6aa190320265",
+            "idName": "12",
+            "displayName": "Ansvarlig forbruk og produksjon",
+            "summary": "Sikre bærekraftig forbruks- og produksjonsmønstre",
+            "description": "Bærekraftig forbruk og produksjon handler om å gjøre mer med mindre ressurser.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#CE8D29"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-12.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-12.png"
+              }
+            }
+          },
+          {
+            "id": "5f32589a203f6aa190320270",
+            "idName": "13",
+            "displayName": "Stoppe klimaendringene",
+            "summary": "Handle umiddelbart for å bekjempe klimaendringene og konsekvensene av dem",
+            "description": "Klimaendringer er et globalt spørsmål og kjenner ingen landegrenser. Derfor må vi også finne globale løsninger. I tillegg til å kutte i utslipp og fange og lagre CO2, må det satses langt mer på fornybar energi og annen ren energi.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#47773D"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-13.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-13.png"
+              }
+            }
+          },
+          {
+            "id": "5f32589a203f6aa19032027b",
+            "idName": "14",
+            "displayName": "Liv under vann",
+            "summary": "Bevare og bruke hav og marine ressurser på en måte som fremmer bærekraftig utvikling",
+            "description": "Det er verdenshavene – deres temperatur, kjemi, strømninger og liv – som driver de globale systemene som gjør det mulig for mennesker å leve på jorda.  Regn, drikkevann, været, klimaet, mye av maten vår og til og med lufta vi puster inn er til syvende og sist regulert av havet.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#017DBD"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-14.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-14.png"
+              }
+            }
+          },
+          {
+            "id": "5f32589a203f6aa190320286",
+            "idName": "15",
+            "displayName": "Liv på land",
+            "summary": "Beskytte, gjenopprette og fremme bærekraftig bruk av økosystemer, sikre bærekraftig skogforvaltning, bekjempe ørkenspredning, stanse og reversere landforringelse samt stanse tap av artsmangfold",
+            "description": "Skog dekker 30 prosent av jordas overflate. Skogen gir mat og ly, bekjemper klimaendringer, tar vare på det biologiske mangfoldet, og er hjemmet til mange urfolk. Over 80 prosent av alle dyr, planter og insekter som lever på land, bor i skogen. 1,6 milliarder mennesker har skogen som sitt levebrød. Avskoging og ørkenspredning er store utfordringer når det gjelder å skape bærekraftig utvikling. Samtidig gjør de menneskene som er avhengige av skogen mer utsatt for fattigdom.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#3DB04B"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-15.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-15.png"
+              }
+            }
+          },
+          {
+            "id": "5f32589a203f6aa190320291",
+            "idName": "16",
+            "displayName": "Fred og rettferdighet",
+            "summary": "Fremme fredelige og inkluderende samfunn med sikte på bærekraftig utvikling, sørge for tilgang til rettsvern for alle og bygge velfungerende, ansvarlige og inkluderende institusjoner på alle nivåer",
+            "description": "Å sikre internasjonal fred og sikkerhet har alltid vært FNs hovedoppgave. Derfor er mål 16 viet til å skape fredelige og inkluderende samfunn.Fred er en forutsetning for å skape bærekraftig utvikling. Under konflikter mister mange tilgang til offentlige tjenester. I tillegg er det vanskelig å drive sterke statlige institusjoner under en konflikt. Når for eksempel rettsvesenet i et land fungerer dårlig, går det ut over menneskers rettssikkerhet. Svake institusjoner gjør det også vanskeligere å stoppe korrupsjon, bestikkelser og skatteunndragelser. Dette hemmer den økonomiske veksten i et land og frarøver mennesker retten til grunnleggende velferdstjenester.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#00689D"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-16.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-16.png"
+              }
+            }
+          },
+          {
+            "id": "5f32589a203f6aa19032029c",
+            "idName": "17",
+            "displayName": "Samarbeid for å nå målene",
+            "summary": "Styrke gjennomføringsmidlene og fornye globale partnerskap for bærekraftig utvikling",
+            "description": "For å lykkes med bærekraftsmålene trengs det nye og sterke partnerskap. Myndigheter, næringslivet og sivilsamfunnet må samarbeide for å oppnå bærekraftig utvikling. Bærekraftsmålene skal fungere som en felles, global retning og prioritert innsats de neste 15 årene. Erfaring fra Tusenårsmålene viser at denne typen målrettet innsats virker.",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#183668"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-icon-17.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sdg/sdg-logo-17.png"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+
+  "value": {
+    "entities": [
+      {
+        "id": "5f338505203f6aa1903223d9",
+        "idName": "elektrisk-passasjerferge",
+        "entity_categories": [
+          {
+            "id": "5f338f39203f6aa1903223f1",
+            "text": "Ferge Values gevinst",
+            "category": {
+              "id": "5f325898203f6aa190320194",
+              "idName": "value"
+            },
+            "entity_category_answers": [
+              {
+                "id": "5f338f6c203f6aa1903223f2",
+                "text": "Den elektriske fergen bidrar til at innbyggerne har et miljøvennlig alternativ til transport, den bidrar til mindre støy, og den sparer kommunen for penger. Vi regner med at driftskostnadene blir inntil 80% mindre enn for de gamle dieseldrevne fergene. Denne ene fergen alene er beregnet til å spare 250.000 kroner i diesel, og omlag 50.000 kroner i driftsutgifter årlig.",
+                "categoryitem": {
+                  "id": "5f325898203f6aa19032019f",
+                  "idName": "expected"
+                }
+              },
+              {
+                "id": "5f338fdf203f6aa1903223f3",
+                "text": "Ikke utført ennå. JADDA",
+                "categoryitem": {
+                  "id": "5f325898203f6aa1903201aa",
+                  "idName": "measured"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": "5f325898203f6aa190320194",
+        "idName": "value",
+        "displayName": "Gevinst",
+        "summary": "Gevinst",
+        "categoryType": "input",
+        "image": null,
+        "internalImage": {
+          "icon": {
+            "url": "http://bucket.urbalurba.com/cat/sustainability/sustainability-logo-large.jpg"
+          },
+          "profile": {
+            "url": "http://bucket.urbalurba.com/cat/sustainability/sustainability-logo-large.jpg"
+          }
+        },
+        "color": {
+          "text": "#ffffff",
+          "background": "#EB1C2E"
+        },
+        "categoryitems": [
+          {
+            "id": "5f325898203f6aa19032019f",
+            "idName": "expected",
+            "displayName": "Forventet",
+            "summary": "Forventet",
+            "description": "Forventet",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#183668"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sustainability/economic-medium.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sustainability/economic-medium.png"
+              }
+            }
+          },
+          {
+            "id": "5f325898203f6aa1903201aa",
+            "idName": "measured",
+            "displayName": "Målt",
+            "summary": "Målt",
+            "description": "Målt",
+            "sortOrder": 1,
+            "color": {
+              "text": "#ffffff",
+              "background": "#183668"
+            },
+            "image": null,
+            "internalImage": {
+              "icon": {
+                "url": "http://bucket.urbalurba.com/cat/sustainability/social-medium.png"
+              },
+              "profile": {
+                "url": "http://bucket.urbalurba.com/cat/sustainability/social-medium.png"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+
+}
