@@ -94,8 +94,8 @@ const CategoryTableEdit = ({ className, data, ...rest }) => {
   useEffect(() => {      
       const myDefaultValues = setFormInputValues(category.categoryitems, entityCategoryAnswers);  
       reset(myDefaultValues); //setting default values
-    });
-
+    },[]);
+// YEY : added [] as a parameter to useEffect and now it only run once :)
 
   const watchAllFields = watch();
 
