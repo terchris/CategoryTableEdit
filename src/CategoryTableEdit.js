@@ -83,10 +83,14 @@ const CategoryTableEdit = ({ className, data, ...rest }) => {
 
 
   let defaultValues = {};
-  
-    
-  
-// HERE IS THE PROBLEM
+  defaultValues = setFormInputValues(category.categoryitems, entityCategoryAnswers);  
+
+// FIRST USE OF useForm was with  defaultValues
+// like this: useForm({defaultValues: defaultValues} );
+
+// but since I started using apollo graphql hook I needed to initialize useForm before I have the data from apollo  
+
+// TRYING TO USE useEffect - BUT IT RUNS ALL THE TIME SO THAT ANY EDITING IS RESET 
   useEffect(() => {      
       const myDefaultValues = setFormInputValues(category.categoryitems, entityCategoryAnswers);  
       reset(myDefaultValues); //setting default values
