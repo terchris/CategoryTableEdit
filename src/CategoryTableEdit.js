@@ -76,29 +76,22 @@ const CategoryTableEdit = ({ className, data, ...rest }) => {
 
 
 //apollo graphql hook here
-
+// the graphql query returns a data object (the data object is pased as a parameter to CategoryTableEdit just for simplicity ) 
   let category = data.categories[0];
   let entityCategoryAnswers = data.entities[0].entity_categories[0].entity_category_answers;
   let entityCategoryID = data.entities[0].entity_categories[0].id;
 
 
   let defaultValues = {};
-  defaultValues = setFormInputValues(category.categoryitems, entityCategoryAnswers);  
+  
     
   
-    useEffect(() => {      
-      reset(defaultValues); // asynchronously reset your form values
+// HERE IS THE PROBLEM
+  useEffect(() => {      
+      const myDefaultValues = setFormInputValues(category.categoryitems, entityCategoryAnswers);  
+      reset(myDefaultValues); //setting default values
     });
 
-
-
-
-  /*
-   setFormInputValues2( category.categoryitems, entityCategoryAnswers);
-   setValue("Jalla", "terje");
-  let allTheValues = getValues();
-  console.log("getValues.:", allTheValues)
-  */
 
   const watchAllFields = watch();
 
