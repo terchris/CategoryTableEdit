@@ -75,18 +75,19 @@ function App() {
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
         >
-          <Tab label="sdg" {...a11yProps(0)} />
-          <Tab label="orgtype" {...a11yProps(1)} />
-          <Tab label="value" {...a11yProps(2)} />
+          <Tab label="value" {...a11yProps(0)} />
+          <Tab label="sdg" {...a11yProps(1)} />
+          <Tab label="orgtype" {...a11yProps(2)} />
+          
         </Tabs>
       </AppBar>
-      <TabPanel value={value} index={0}>
+      <TabPanel value={value} index={1}>
       <CategoryTableEdit data={data.sdg} />
       </TabPanel>
-      <TabPanel value={value} index={1}>
+      <TabPanel value={value} index={2}>
       <CategoryTableEdit data={data.orgtype} />
       </TabPanel>
-      <TabPanel value={value} index={2}>
+      <TabPanel value={value} index={0}>
       <CategoryTableEdit data={data.value} />
       </TabPanel>
 

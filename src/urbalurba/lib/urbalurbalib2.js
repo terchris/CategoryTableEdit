@@ -222,7 +222,7 @@ export function readFormInputValuesMultiple(
     // if the entity already has one or more answers in this category. then there is a entityCategory record
     //
 
-    //console.log("idName:", categoryitems[i].idName);
+    /* debugging
     if (alreadyChecked)
       console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " alreadyChecked: TRUE");
     else
@@ -231,7 +231,7 @@ export function readFormInputValuesMultiple(
       "readFormInputValuesMultiple inputAnswers[categoryitems[i].idName]:",
       inputAnswers[categoryitems[i].idName]
     );
-
+    * end debugging */
 
 
 
@@ -241,12 +241,12 @@ export function readFormInputValuesMultiple(
 
       //Now we need to figure out if the text has changed. If it has then we must mark it to be UPDATE
       if ((inputAnswers[`${categoryitems[i].idName}-text`] !== alreadyChecked.text) && (inputAnswers[`${categoryitems[i].idName}-text`] !== undefined) ) {
-        console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " ACTION UPDATE TEXT CHANGED alreadyChecked.text=",alreadyChecked.text, "= text=", inputAnswers[`${categoryitems[i].idName}-text`], "=" );        
+       // console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " ACTION UPDATE TEXT CHANGED alreadyChecked.text=",alreadyChecked.text, "= text=", inputAnswers[`${categoryitems[i].idName}-text`], "=" );        
         newEntityCategoryAnswerRecord.action = "UPDATE";
         newEntityCategoryAnswerRecord.text = inputAnswers[`${categoryitems[i].idName}-text`]; //text is changed
       } else {
 
-      console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " ACTION unchanged");
+      //console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " ACTION unchanged");
       newEntityCategoryAnswerRecord.action = "unchanged";
       newEntityCategoryAnswerRecord.text = alreadyChecked.text; //this has not been changed in this input
     }      
@@ -259,7 +259,7 @@ export function readFormInputValuesMultiple(
 
     if (inputAnswers[categoryitems[i].idName] && !alreadyChecked) {
       // if the checkbox is checked and it was NOT checked before editing
-      console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " ACTION create");
+      //console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " ACTION create");
       newEntityCategoryAnswerRecord.action = "CREATE";
       newEntityCategoryAnswerRecord.entityCategoryAnswerID = "to be created"; //for existing answers a ID for new its empty
       newEntityCategoryAnswerRecord.text = ""; 
@@ -268,7 +268,7 @@ export function readFormInputValuesMultiple(
     }
     if (!inputAnswers[categoryitems[i].idName] && alreadyChecked) {
       // it is not checked. if it was checked before we need to delete that record
-      console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " ACTION delete");
+      //console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " ACTION delete");
       newEntityCategoryAnswerRecord.action = "DELETE";
       newEntityCategoryAnswerRecord.entityCategoryAnswerID = alreadyChecked.id; //for existing answers a ID for new its empty
       newEntityCategoryAnswerRecord.text = alreadyChecked.text; //this has no been changed in this input
@@ -279,7 +279,7 @@ export function readFormInputValuesMultiple(
 
     if (!inputAnswers[categoryitems[i].idName] && !alreadyChecked) {
       // it is not checked. if it was checked before we need to delete that record
-      console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " ACTION not selected");
+      //console.log("readFormInputValuesMultiple idName:", categoryitems[i].idName, " ACTION not selected");
       newEntityCategoryAnswerRecord.action = "not selected";
       newEntityCategoryAnswerRecord.entityCategoryAnswerID = "not selected";
       newEntityCategoryAnswerRecord.text = "not selected";

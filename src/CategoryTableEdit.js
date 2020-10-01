@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {  useEffect }  from 'react';
 import { useForm, Controller } from "react-hook-form";
 
 import clsx from 'clsx';
@@ -67,7 +67,7 @@ const CategoryTableEdit = ({ className, data, ...rest }) => {
 
 
 
-  const { handleSubmit, control, watch, setValue } = useForm();
+  const { handleSubmit, control, watch, setValue, reset } = useForm();
 
 
 
@@ -83,12 +83,16 @@ const CategoryTableEdit = ({ className, data, ...rest }) => {
 
 
   let defaultValues = {};
-  /*  
-    defaultValues = setFormInputValues(
-      category.categoryitems,
-      entityCategoryAnswers
-    );
-  */
+  defaultValues = setFormInputValues(category.categoryitems, entityCategoryAnswers);  
+    
+  
+    useEffect(() => {      
+      reset(defaultValues); // asynchronously reset your form values
+    });
+
+
+
+
   /*
    setFormInputValues2( category.categoryitems, entityCategoryAnswers);
    setValue("Jalla", "terje");
